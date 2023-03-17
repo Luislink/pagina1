@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Argentina Programa</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous"/>
+    <link rel="stylesheet" href="styles.css">
+    
+</head>
+<body>
+    <div class="card mat-card" id="first-card">
+        <div id="profile-background"><img src="/imagenes/Fondo-electro.jpg" alt="image-circuit"></div>
+        <div id="info" style="padding: 16px">
+            <div id="info-img">
+                <img class="profile-image" src="/imagenes/Mario.jpg" alt="image_profile">
+                <div class="btn-edit" style="display: contents;"><a href="#" class="btn-right">
+                <i class="fa fa-pen"></i></a></div>
+                </div>
+            <div id="info-data">
+                <div>
+                <h1>Luis Juarez</h1>
+                <div id="info-company">Estudiante de ingenieria</div>
+                <div id="info-contact">
+                    <span>Tucumán (Argentina) </span>
+                    <span><a href="#">Informacion de contacto</a></span>
+                </div>
+            </div>
+                <ul id="info-details">
+                    <li id="icon-unt"><a href="#">
+                    <img src="https://diaguita.unt.edu.ar/diaguita/img/logobn.jpg?av=3.2.1" alt="Logo Universidad">
+                    <h2>Universidad Nacional de Tucumán</h2>
+                </a></li>
+                <li id="icon-facet"><a href="#">
+                    <img src="https://www.facet.unt.edu.ar/ingmecanica/wp-content/uploads/sites/33/2015/12/LOGO-FACET.png" alt="Logo Facultad">
+                    <h2>Facultad de Ciencias Exactas y Tecnología</h2>
+                </a></li>
+            </ul>
+        </div>
+        <div id="info-actions">
+            <button type="button" class="btn btn-primary">Tengo interés en</button>
+            <button type="button" class="btn btn-light">Añadir Sección</button>
+            <button type="button" class="btn btn-light">Más</button>
+        </div>
+    </div>
+    </div>
+    <div class="card mat-card">
+        <div class="card-titles">
+            <h2>Acerca de</h2>
+            <div class="btn-edit" onclick="cambiar_parrafo()">
+                <a href="#" class="btn-right">
+                    <i class="fa fa-pen"></i>
+                </a>
+            </div>
+        </div>
+        <div>
+            <p id="text-acercade">Electricista, Electrónico y Programador</p>
+        </div>
+        <div>
+            <input id="edit-acercade" type="text" oninput="myFuntion2(this.value)" style="display: none;">
+        </div>
+    </div>
+    
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    
+    <script src="/script.js"></script>
+    
+    
+</body>
+</html>
